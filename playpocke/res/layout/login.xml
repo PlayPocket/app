@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/blauhintergrund"
+	android:gravity="top|center"
+	android:orientation="vertical">
+
+	<ImageView
+		android:layout_width="300dp"
+		android:layout_height="65dp"
+		android:background="@drawable/playpockettitle"
+		android:layout_marginTop="10dp"/>
+
+	<ImageView
+		android:layout_width="100dp"
+		android:layout_height="45dp"
+		android:background="@drawable/login"
+		android:layout_marginTop="20dp"/>
+
+	<ImageView
+		android:layout_width="250dp"
+		android:layout_height="50dp"
+		android:background="@drawable/benutzername"
+		android:layout_marginTop="20dp"/>
+
+	<EditText
+		android:id="@+id/editText1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1"
+		android:layout_centerHorizontal="true"
+		android:ems="10"
+		android:textColorHint="#FFFFFF"
+		android:hint="Benutzername">
+
+	</EditText>
+
+	<ImageView
+		android:layout_width="230dp"
+		android:layout_height="45dp"
+		android:background="@drawable/passwort"/>
+
+	<EditText
+		android:id="@+id/editText2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/editText1"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="16dp"
+		android:ems="10"
+		android:inputType="textPassword"
+		android:textColorHint="#FFFFFF"
+		android:hint="Passwort"/>
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignRight="@+id/editText1"
+		android:layout_centerVertical="true"
+		android:text="Login"
+		android:onClick="login"
+		android:paddingRight="127dp"
+		android:paddingLeft="127dp"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/button1"
+		android:layout_alignBottom="@+id/button1"
+		android:layout_alignLeft="@+id/editText1"
+		android:text="Registrieren"
+		android:onClick="registrieren"
+		android:paddingLeft="100dp"
+		android:paddingRight="100dp"
+		android:layout_marginTop="20dp"
+		android:textColor="#FFFFFF"/>
+
+	<ImageView
+		android:layout_width="150dp"
+		android:layout_height="41dp"
+		android:layout_marginLeft="83dp"
+		android:background="@drawable/version"
+		android:layout_marginTop="30dp"/>
+
+</LinearLayout>
+

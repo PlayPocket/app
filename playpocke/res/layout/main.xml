@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/blauhintergrund"
+	android:gravity="top|center">
+
+	<ImageView
+		android:layout_width="300dp"
+		android:layout_height="65dp"
+		android:background="@drawable/playpockettitle"/>
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:text="Logout"
+		android:onClick="logout"
+		android:layout_marginTop="20dp"
+		android:textColor="#FFFFFF"/>
+
+	<ImageView
+		android:layout_width="150dp"
+		android:layout_height="41dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/version"
+		android:layout_marginTop="500dp"
+		android:layout_marginLeft="160dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Games"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="150dp"
+		android:layout_marginLeft="150dp"
+		android:paddingRight="49dp"
+		android:paddingLeft="49dp"
+		android:onClick="games"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Apps"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="200dp"
+		android:layout_marginLeft="150dp"
+		android:paddingLeft="57dp"
+		android:paddingRight="57dp"
+		android:onClick="apps"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Charts"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="250dp"
+		android:layout_marginLeft="150dp"
+		android:paddingLeft="48dp"
+		android:paddingRight="48dp"
+		android:onClick="charts"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="News"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="300dp"
+		android:layout_marginLeft="150dp"
+		android:paddingLeft="56dp"
+		android:paddingRight="55dp"
+		android:onClick="news"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Play!Pocket Web"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="350dp"
+		android:layout_marginLeft="150dp"
+		android:onClick="ppweb"
+		android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
+
