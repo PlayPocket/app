@@ -31,9 +31,8 @@ public class login extends Activity {
 			userbereichopen();
 		}else {
 		    setContentView(R.layout.login);
-			etusername = (EditText)findViewById(R.id.editText1);
-			etpasswort = (EditText)findViewById(R.id.editText2);
-		}	
+			etusername = (EditText)findViewById(R.id.etusername);
+			etpasswort = (EditText)findViewById(R.id.etpasswort);		}	
 
 
 	}
